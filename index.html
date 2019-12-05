@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sanele Mpangalala</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+        .small-pic{
+            width: 4em;
+            height: 4em;
+        }
+
+        .text-gold{
+            color: #ffd700e8;
+        }
+
+        .border-gold{
+            border-color: #ffd700e8 !important;
+        }
+
+        .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+            color: black !important;
+            background-color: goldenrod !important;
+        }
+
+        a {
+            color: goldenrod !important;
+        }
+    </style>
+</head>
+<body class="bg-dark">
+<div class="container-fluid">
+    <div class="row shadow mb-5">
+        <div class="col-sm-10 p-2 text-center text-gold">
+            <div id="carouselExampleCaptions" class="carousel slide carousel-fade" interval="10000" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        Quoute #1
+                    </div>
+                    <div class="carousel-item">
+                        Quoute #2
+                    </div>
+                    <div class="carousel-item">
+                        Quoute #3
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-3 border border-gold rounded p-2 text-center">
+            <div class="text-center">
+                <img class="small-pic border-white border rounded-circle" src="data:image/jpeg;base64,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" alt="">
+            </div>
+            <br>
+            <div class="nav flex-column nav-pills text-light" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a>
+                <a class="nav-link" id="v-pills-about-tab" data-toggle="pill" href="#v-pills-about" role="tab" aria-controls="v-pills-about" aria-selected="false">About</a>
+                <a class="nav-link" id="v-pills-projects-tab" data-toggle="pill" href="#v-pills-projects" role="tab" aria-controls="v-pills-projects" aria-selected="false">Projects</a>
+                <a class="nav-link" id="v-pills-blog-tab" data-toggle="pill" href="#v-pills-blog" role="tab" aria-controls="v-pills-bog" aria-selected="false">Blog</a>
+                <a class="nav-link" id="v-pills-contact-tab" data-toggle="pill" href="#v-pills-contact" role="tab" aria-controls="v-pills-contact" aria-selected="false">Contact</a>
+            </div>
+        </div>
+        <div class="col-9">
+            <div class="tab-content" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-10 p-2 text-center text-gold">
+                                <img src="https://images.complex.com/complex/images/c_limit,dpr_auto,q_90,w_720/fl_lossy,pg_1/mwcvgzcenelty1k5py7t/lebron-james-mvp" alt="">
+                                <h1>Sanele Mpangalala</h1>
+                                <h3>Software Engineer</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-about" role="tabpanel" aria-labelledby="v-pills-about-tab">
+
+                </div>
+                <div class="tab-pane fade" id="v-pills-projects" role="tabpanel" aria-labelledby="v-pills-projects-tab">projects</div>
+                <div class="tab-pane fade" id="v-pills-blog" role="tabpanel" aria-labelledby="v-pills-blog-tab">blog</div>
+                <div class="tab-pane fade" id="v-pills-contact" role="tabpanel" aria-labelledby="v-pills-blog-tab">contact</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+</html>
